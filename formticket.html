@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pemesanan Tiket Konser</title>
+    <link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+    <section class="container">
+    <header>Form Pemesanan Tiket Konser</header>
+
+    <form class="form" action="thankyou.html">
+        <div class="input-box">
+        <label for="nama">Nama : </label>
+        <input type="text" placeholder="Masukan Nama Lengkap" required><br>
+        </div>
+
+        <div class="input-box">
+        <label for="email">Email : </label>
+        <input type="email" placeholder="Masukan Email" required><br>
+        </div>
+
+        <div class="input-box">
+        <label for="phone">No Telepon : </label>
+        <input type="number" placeholder="Masukan nomor telepon" required><br>
+    </div>
+
+    <div class="input-box">
+        <label for="nik">NIK : </label>
+        <input type="number" placeholder="Masukan NIK" required><br>
+    </div>
+
+        <div class="seat-option">
+            <h3>Pilihan Tempat Duduk:</h3>
+
+        <input type = "radio" id="VIP" name="seat">
+        <label for="VIP">VIP</label><br>
+        <input type = "radio" id="Cat1" name="seat">
+        <label for="Cat1">Cat 1</label><br>
+        <input type = "radio" id="Cat2" name="seat">
+        <label for="Cat2">Cat 2</label><br>
+        <input type = "radio" id="Cat3" name="seat">
+        <label for="Cat3">Cat 3</label><br>
+        </div>
+
+        <div class="input-box">
+            <label for="phone">Jumlah Tiket : </label>
+            <input type="number" id="number">
+        </div>
+
+        <div class="input-box">
+            <h3>Metode Pembayaran : </h3>
+            <select class="bank">
+                <option hidden></option>
+                <option>Bank BCA</option>
+                <option>Bank BTN</option>
+                <option>Bank BRI</option>
+                <option>Bank BNI</option>
+            </select>
+        </div>
+
+        <button>Submit</button>
+    </form>
+</section>
+</body>
+</html>

@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    max-height: fit-content;
+    max-width: 100%;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+}
+img{
+    width: 100%;
+}
+
+header{
+    width: 100%;
+    background-color: #072152;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo{
+    color: #b5e5fd;
+    font-weight: 700;
+    text-decoration: underline;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    padding: 1rem;
+    align-items: center;
+    margin: 0;}
+    
+.nav-link {
+    
+    border: 0;
+    padding: 15px 25px;
+ }
+
+nav a{
+    text-decoration: none;
+    color: white;
+    margin-left: 40px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+header nav a:hover,
+header nav a.active{
+    background:#6d8fff;
+    color: white;
+}
+
+.welcome{
+    position: absolute;
+    width: 60%;
+    top: 35%;
+    left: 20%;
+    text-transform: uppercase;
+}
+
+.welcome h1{
+    color: white;
+    font-style: italic;
+    font-size: 3em;
+    font-weight: 800;
+    letter-spacing: 10px;
+}
+
+.welcome .explore{
+    background-color: #24288b;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 1em;
+    font-weight: 700;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+
+.welcome .explore:hover{
+    background-color: rgb(255, 255, 255);
+    color: #24288b;
+}
+
+#about{
+    width: 100%;
+    padding: 2.5rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.about-cont{
+    width: fit-content;
+    margin: auto auto;
+}
+
+.ticket{
+    margin-left: 0;
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    background: radial-gradient(#516385,#384d74, #1f3763, #072152);
+}
+
+
+.card-list .card-item .card-link{
+    width: 350px;
+    display: block;
+    background: white;
+    padding: 20px;
+    border: 2px solid transparent;
+    border-radius: 12px;
+    text-decoration: none;
+    box-shadow: 0 10px 10px black;
+    transition: 0.5 ease;
+}
+
+.card-list .card-item .card-link:hover{
+    border-color: #6189ff;
+}
+
+.card-list .card-item .card-image{
+width: 300px;
+justify-content: center;
+margin-left: 10px;
+border-radius: 10px;
+
+}
+
+.card-item{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.card-list .card-item .badge{
+    color: rgb(0, 81, 255);
+    font-weight: 500;
+    padding: 8px 16px;
+    margin: 16px 0 18px;
+    background: rgb(171, 249, 255);
+    width: fit-content;
+    border-radius: 60px;
+}
+
+.card-list .card-item .card-title{
+font-size: 1rem;
+color: black;
+font-weight: 500;
+}
+
+.card-list .card-item .card-button{
+    margin: 30px 0 5px;
+    border: 2px;
+    border-radius: 50%;
+}
+
+.desc{
+    width: 100%;
+    margin-left: 0;
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    background: radial-gradient(#516385,#384d74, #1f3763, #072152);
+}
+
+footer{
+    background-color: #072152;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+.judul{
+    color: #fff;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: 500;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.p{
+    color: #fff;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: 500;
+    font-size: 20px;
+}
+.link{
+    background: white;
+}
+
+.fa-brands{
+    margin-right: 20px;
+    color: #fff;
+    font-size: 30px;
+}
+
+.profile{
+    color: #fff;
+    font-size: 15px;
+}

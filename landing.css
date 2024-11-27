@@ -1,0 +1,26 @@
+*{
+    max-width: fit-content;
+}
+header{
+    background-color: rgb(228, 208, 246);
+    margin: -10px;
+}
+header ul{
+    display: flex;
+    list-style: none;
+    padding: 1rem;
+    align-items: center;
+    margin: 0;
+
+}
+header li{
+    margin: 0 1.5rem;
+    font-weight: bold;
+}
+
+.tik{
+    margin-right: 20em;
+}
+.log{
+    margin-left: 10em;
+}
